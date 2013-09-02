@@ -1,0 +1,27 @@
+package unidadIII;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+import javax.swing.*;
+
+public class Banderas extends JPanel {
+	private static final long serialVersionUID = 1L;
+	
+	public void paintComponent(Graphics g){
+		super.paintComponents(g);
+		
+		
+		
+	public static void main(String[] args) {
+		JFrame marco= new JFrame ("Banderas");
+		marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JPanel band= new  Banderas();
+		
+		marco.add(band);
+		marco.setSize(800,600);
+		marco.setLocation(200,100);
+		marco.setVisible(true);
+	}
+
+}

@@ -12,3 +12,7 @@ public class firma11 extends JFrame implements ActionListener {
 	 
      int  tamaño = 5;
 	 Color color =  Color.BLACK;
+	 
+	  int  tamaño = 5;
+	 Color color =  Color.BLACK;
+	 

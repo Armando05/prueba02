@@ -1,0 +1,14 @@
+package Unidad2;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+
+
+public class firma11 extends JFrame implements ActionListener {	
+	
+	 JButton B1,B2,B3,B4;
+	 JLabel E1;
+	 
+     int  tamaño = 5;
+	 Color color =  Color.BLACK;
